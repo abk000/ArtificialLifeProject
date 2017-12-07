@@ -4,7 +4,7 @@ public class Main {
 
         grid.print();
 
-        for(int i =0; i < 32; i++) { // number of iterations
+        for(int i =0; i < 3; i++) { // number of iterations
             grid.move();
             grid.reproduce();
             grid.eat();
